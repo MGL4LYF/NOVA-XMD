@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "NOVA~9N1zCA7Q#j_CFSwTS4BPGRgigJV_pwKObsI0jN_qFiCVDxsmc1CY",
 // add your Session Id 
 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
@@ -18,10 +18,10 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true or false for auto react on status
 
-ANTI_CALL: process.env.ANTI_CALL || "true",
+ANTI_CALL: process.env.ANTI_CALL || "false",
 // anticall on/off
 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY NOVA XMD 🔥*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY MGL4LYF 🔥*",
 // set the auto reply massage on status reply  
 
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
@@ -48,7 +48,7 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/mxb907.j
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 
-BOT_NAME: process.env.BOT_NAME || "NOVA-XMD",
+BOT_NAME: process.env.BOT_NAME || "MGL4LYF",
 // add bot namw here for menu
 
 STICKER_NAME: process.env.STICKER_NAME || "NOVA-XMD",
@@ -60,13 +60,13 @@ CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself
 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "255767862457",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "233505390222",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "𝙱.𝙼.𝙱-𝚃𝙴𝙲𝙷",
+OWNER_NAME: process.env.OWNER_NAME || "MGL4LYF",
 // add bot owner name
 
-DESCRIPTION: process.env.DESCRIPTION || "*© powered 𝙽𝙾𝚅𝙰-𝚇𝙼𝙳*",
+DESCRIPTION: process.env.DESCRIPTION || "*© powered MGL4LYF*",
 // add bot description    
 
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/mxb907.jpg",
@@ -90,7 +90,7 @@ MODE: process.env.MODE || "public",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
@@ -105,7 +105,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "true",
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
-DEV: process.env.DEV || "255767862457",
+DEV: process.env.DEV || "233505390222",
 // replace with your whatsapp number        
 
 ANTI_VV: process.env.ANTI_VV || "true",
@@ -117,6 +117,6 @@ AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
 AUTO_BIO: process.env.AUTO_BIO || "false",
 // make true if you want bot to auto-update bio/status
 
-CHAT_BOT: process.env.CHAT_BOT || "false"
+CHAT_BOT: process.env.CHAT_BOT || "true"
 // make true if you want AI chatbot responses enabled
 };
