@@ -45,7 +45,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/mxb907.jpg",
 // add custom menu and mention reply image url
 
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "!",
 // add your prifix for bot   
 
 BOT_NAME: process.env.BOT_NAME || "MGL4LYF",
@@ -72,7 +72,7 @@ DESCRIPTION: process.env.DESCRIPTION || "*© powered MGL4LYF*",
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/mxb907.jpg",
 // add img for alive msg
 
-LIVE_MSG: process.env.LIVE_MSG || "> Powered by Nova Xmd",
+LIVE_MSG: process.env.LIVE_MSG || "> Powered by MGL4LYF",
 // add alive msg here 
 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
@@ -93,7 +93,7 @@ AUTO_STICKER: process.env.AUTO_STICKER || "false",
 AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
